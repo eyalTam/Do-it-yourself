@@ -1,0 +1,80 @@
+.user_content_container { 
+    height:100%;
+    /* background:rgba(217, 248, 214, 0.4); */
+    padding:2rem 0;
+    /* display:flex; */
+}
+
+.top_btns  {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_container {
+    position:relative;
+}
+
+/* .process_btn {
+    background-image:linear-gradient(rgba(217, 248, 214, 0.4),rgba(217, 248, 214, 0.4)), url('process-icon.jpg');
+} */
+
+/* .schedule_btn {
+    background-image: linear-gradient(rgba(217, 248, 214, 0.4),rgba(217, 248, 214, 0.4)), url('schedule-icon.jpg');
+} */
+
+.bottom_btn{
+    text-align:center;
+    margin:2rem 0;
+}
+
+/* .builder_btn {
+    background-image: linear-gradient(rgba(217, 248, 214, 0.4),rgba(217, 248, 214, 0.4)),
+                url('workout-builder-icon.jpg');
+    position: relative;
+    height:18rem !important;
+} */
+
+.content_title {
+    margin:0;
+}
+
+.btn_container img {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: center;
+    border: none;
+    margin:0 5rem;
+    outline: none;
+    width:15rem;
+    height:15rem;
+}
+
+/* .btn_background:hover {
+    animation: option_focus 0.5s forwards ease-out; 
+} */
+
+@keyframes option_focus {
+    0% {
+        opacity:0.2;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.notHovered {
+    display: none;
+}
+
+.hoveredBtn {
+    position:absolute;
+    top:0;
+    right:0;
+    margin:0;
+    padding:0;
+}

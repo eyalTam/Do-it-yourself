@@ -1,0 +1,142 @@
+.training_options_container {
+    height:100%;
+    text-align: center;
+    /* padding:1.5rem 0 0 0; */
+}
+
+.training_options_container:hover {
+    cursor: default;
+}
+
+.training_options_title {
+    padding:0.5rem 0 0 0;
+    margin:1.5rem 0;
+    color:black;
+    /* box-sizing: border-box; */
+}
+
+.training_option {
+    display: inline-block;
+    max-width:22%;
+    position: relative;
+    margin:3rem 3rem;
+}
+
+.training_option img{
+    display:block;
+    height:auto;
+    max-width:100%;
+    border:2px solid white;
+    box-shadow: 5px 10px 18px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.training_option:hover{
+    border-color:white;
+    animation: option_focus 1s forwards ease-out;
+}
+
+.description{
+    position:absolute;
+    top:10%;
+    left:35%;
+    max-width:50%;
+    font-weight: bold;
+    color:black;
+    font-size:2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .description {
+        font-size: 0.8rem;
+    }
+}
+
+@keyframes option_focus {
+    0% {
+        opacity:0.2;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.builder_container {
+    padding:3rem 0;
+}
+
+
+.body_part_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:3rem;
+    margin: 0  auto;
+    padding-bottom:3rem;
+    color:rgba(77, 66, 116, 0.95);
+    font-size:1.5rem;
+    border-radius:3px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+    animation: appear 1s 0.5s forwards;
+    background:linear-gradient(to top,rgb(243, 239, 239), rgb(255, 253, 253) );
+}
+
+.body_part_title:hover {
+    cursor: default;
+    color:rgb(72, 73, 58);
+}
+
+.body_part_title_even {
+    background:linear-gradient(to bottom,rgb(243, 239, 239), rgb(255, 253, 253) );
+    margin-top:0;
+}
+
+.body_part_title_hide {
+    display:none;
+}
+
+.category_items {
+    height:100%;
+    text-align: center;
+    text-decoration:none;
+    background:linear-gradient(to top,rgb(243, 239, 239), rgb(255, 253, 253) );
+}
+
+.category_item { 
+    display:flex;
+    font-size: 1.3rem;
+    width:75%;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    background: rgba(77, 66, 116, 0.95);
+    border:3px solid white;
+    border-radius: 10px;
+    height:3rem;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.category_item:hover{
+    cursor: default;
+    color:rgb(243, 255, 137);
+}
+
+
+@keyframes appear {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    0% {
+        opacity: 1;
+    }
+}

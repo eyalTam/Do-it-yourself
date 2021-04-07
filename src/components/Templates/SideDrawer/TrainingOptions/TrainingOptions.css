@@ -1,0 +1,83 @@
+.container {
+    width:100%;
+    background-color: white;
+    display: inline-block;
+}
+
+.container:hover {
+    cursor: default;
+}
+
+.option {
+    font-size: 1.2rem;
+    padding:0;
+}
+
+.option:hover {
+    animation: option_focus 1s  ease-in;
+    padding:0;
+}
+
+.options_list {
+    width: 80%;
+}
+
+.option__image-container {
+    width: 60%;
+    height:10rem;
+    max-width: 580px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:3rem 3rem;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    background-image: url('lilach_running.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.option__info {
+    text-align: right;
+    padding: 0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#training-2.option {
+    text-align: right;
+}
+
+#training-2 .option__info {
+    text-align: left;   
+}
+
+.option__name {
+    margin: 0.2rem;
+    color: #58a565;
+    font-size: 2rem;
+}
+
+
+.option__text {
+    margin: 0.2rem;
+    color:black;
+    display: inline-block;
+}
+
+.img {
+    display: inline-block;
+}
+
+
+@keyframes option_focus {
+    
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+    opacity: 0.5;
+    }
+    100% {
+    opacity: 1;
+    }
+}
