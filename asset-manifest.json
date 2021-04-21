@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Do-it-yourself/static/css/main.7da19197.chunk.css",
+    "main.js": "/Do-it-yourself/static/js/main.e95a8c83.chunk.js",
+    "main.js.map": "/Do-it-yourself/static/js/main.e95a8c83.chunk.js.map",
+    "runtime-main.js": "/Do-it-yourself/static/js/runtime-main.715a12df.js",
+    "runtime-main.js.map": "/Do-it-yourself/static/js/runtime-main.715a12df.js.map",
+    "static/js/2.adaac6f5.chunk.js": "/Do-it-yourself/static/js/2.adaac6f5.chunk.js",
+    "static/js/2.adaac6f5.chunk.js.map": "/Do-it-yourself/static/js/2.adaac6f5.chunk.js.map",
+    "static/js/3.c53d2d45.chunk.js": "/Do-it-yourself/static/js/3.c53d2d45.chunk.js",
+    "static/js/3.c53d2d45.chunk.js.map": "/Do-it-yourself/static/js/3.c53d2d45.chunk.js.map",
+    "index.html": "/Do-it-yourself/index.html",
+    "static/css/main.7da19197.chunk.css.map": "/Do-it-yourself/static/css/main.7da19197.chunk.css.map",
+    "static/js/2.adaac6f5.chunk.js.LICENSE.txt": "/Do-it-yourself/static/js/2.adaac6f5.chunk.js.LICENSE.txt",
+    "static/media/abs-muscle.26ca8e32.jpg": "/Do-it-yourself/static/media/abs-muscle.26ca8e32.jpg",
+    "static/media/arms-muscle.33648479.jpg": "/Do-it-yourself/static/media/arms-muscle.33648479.jpg",
+    "static/media/back-muscle.c78642d7.jpg": "/Do-it-yourself/static/media/back-muscle.c78642d7.jpg",
+    "static/media/background.f949802c.jpg": "/Do-it-yourself/static/media/background.f949802c.jpg",
+    "static/media/chest-muscle.13d525b1.jpg": "/Do-it-yourself/static/media/chest-muscle.13d525b1.jpg",
+    "static/media/core.9778d0cc.jpg": "/Do-it-yourself/static/media/core.9778d0cc.jpg",
+    "static/media/functional.b73797bc.jpg": "/Do-it-yourself/static/media/functional.b73797bc.jpg",
+    "static/media/hit.6baa958a.jpg": "/Do-it-yourself/static/media/hit.6baa958a.jpg",
+    "static/media/legs-muscle.33edda34.jpg": "/Do-it-yourself/static/media/legs-muscle.33edda34.jpg",
+    "static/media/lilach_running.84d08ecc.jpg": "/Do-it-yourself/static/media/lilach_running.84d08ecc.jpg",
+    "static/media/low-impact.04c6e94a.jpg": "/Do-it-yourself/static/media/low-impact.04c6e94a.jpg",
+    "static/media/main-logo.be81e555.jpg": "/Do-it-yourself/static/media/main-logo.be81e555.jpg",
+    "static/media/process-icon.dab7ea4f.jpg": "/Do-it-yourself/static/media/process-icon.dab7ea4f.jpg",
+    "static/media/schedule-icon.c11a8073.jpg": "/Do-it-yourself/static/media/schedule-icon.c11a8073.jpg",
+    "static/media/schedule-icon.d1e9f091.jpg": "/Do-it-yourself/static/media/schedule-icon.d1e9f091.jpg",
+    "static/media/shoulders-muscle.c99cedd6.jpg": "/Do-it-yourself/static/media/shoulders-muscle.c99cedd6.jpg",
+    "static/media/workout-builder-icon.939a9d83.jpg": "/Do-it-yourself/static/media/workout-builder-icon.939a9d83.jpg",
+    "static/media/workout-builder-icon.9e596286.jpg": "/Do-it-yourself/static/media/workout-builder-icon.9e596286.jpg",
+    "static/media/yoga.0e532cc7.jpg": "/Do-it-yourself/static/media/yoga.0e532cc7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.715a12df.js",
+    "static/js/2.adaac6f5.chunk.js",
+    "static/css/main.7da19197.chunk.css",
+    "static/js/main.e95a8c83.chunk.js"
+  ]
+}
