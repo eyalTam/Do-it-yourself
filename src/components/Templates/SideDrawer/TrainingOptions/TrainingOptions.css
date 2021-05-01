@@ -1,0 +1,96 @@
+.container:hover {
+    cursor: default;
+}
+
+.option:hover {
+    animation: option_focus 1s  ease-in;
+    padding:0;
+}
+
+
+.option__image-container {
+    height:18rem;
+    max-width: 40rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin:3rem 3rem;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+}
+
+.option__image-container img{
+    height:100%;
+    /* width:100%; */
+}
+
+.option__info {
+    text-align: right;
+    padding: 0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#training-2.option {
+    text-align: right;
+}
+
+#training-2 .option__info {
+    text-align: left;   
+}
+
+.option__name {
+    margin: 0.2rem;
+    color: #58a565;
+    font-size: 2rem;
+}
+
+
+.option__text {
+    margin: 0.2rem;
+    color:black;
+    display: inline-block;
+}
+
+.img {
+    display: inline-block;
+}
+
+
+@keyframes option_focus {
+    
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+    opacity: 0.5;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+@media (max-width:1350px){
+    .option__image-container img{
+        width:400px;
+        min-width: 250px;
+    }
+
+    #training-2.option {
+        text-align: center !important;
+    }
+
+    .option__info {
+        min-width: 350px;
+    }
+  
+    .option__text {
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .option__name {
+        text-align: center;
+        min-width:280px;
+    }
+
+}

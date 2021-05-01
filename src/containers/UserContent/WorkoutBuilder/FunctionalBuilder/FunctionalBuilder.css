@@ -1,0 +1,72 @@
+.functional_workout_container {
+        display: grid;
+        background:rgba(0, 0, 0, 0.8);
+        grid-template-columns: 65% 1fr ;
+        grid-template-rows: 10rem 1fr;
+        padding:2rem 0;
+        min-height:calc(100vh - 74px - 4rem);
+}
+
+.selection_cube {
+    padding:1rem;
+}
+
+.selection_cube label {
+    display: inline-block;
+    width:100%;
+}
+
+.selection_cube input {
+    vertical-align: top;
+}
+
+.functional_content{
+    padding:1rem;
+    border:5px solid white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    min-width: 22rem;
+    text-align: center;
+}
+
+.functional_content img {
+    display:inline-block;
+    height: 12rem;
+    width:17rem;
+    filter: brightness(80%);
+    box-shadow: 5px 10px 18px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin:1rem 1.5rem;
+}
+
+.selected img {
+    filter: none ;
+}
+ 
+.functional_workout_container .custom-select select {
+    margin:auto;
+    display:block;
+    max-width:400px;
+}
+
+@media (max-width:1300px) {
+    .functional_workout_container {
+        display: block;   
+    }
+}
+
+@media (max-width:1500px) {
+    .functional_workout_container img{
+        display:block;
+        margin:3rem 1rem;
+    }
+    .functional_workout_container .custom-select select {
+        min-width:250px;
+    }
+}
+
+@media (max-width:2200px) {
+    .functional_workout_container .side_guide {
+        margin:0;
+    }
+}

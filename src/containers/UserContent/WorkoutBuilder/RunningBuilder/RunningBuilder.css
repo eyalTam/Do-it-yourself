@@ -1,0 +1,42 @@
+.running_workout_container {
+    min-height:calc(100vh - 74px - 4rem);
+    display: grid;
+    background:rgba(0,0,0,0.8);
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 10rem 1fr;
+}
+
+.custom-select {
+    padding:2rem;
+    height:4rem;
+}
+
+.running_workout_container .side_guide {
+    grid-row-start: 1;
+}
+
+.custom-select select{
+    width:30%;
+    -webkit-appearance: none;
+    -ms-appearance: none; 
+    outline:none;
+    display: inline-block;
+    margin:2rem 4rem;
+    height:2rem;
+    border-radius: 5px;
+    font-size:1.1rem;
+    padding:0.3rem;
+}
+
+.running_content{
+    color:white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    min-width: 22rem;
+    text-align: center;
+    margin:2rem 0;
+}
+
+#running_description {
+    font-size: 1.5rem;
+}

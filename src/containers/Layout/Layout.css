@@ -1,0 +1,7 @@
+.main_wrapper{
+    min-height:calc(100vh - 74px - 4rem);
+    width:100%;
+    position:relative;
+    margin-top:74px;
+
+}
